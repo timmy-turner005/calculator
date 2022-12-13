@@ -25,6 +25,7 @@ code {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .calculator {
@@ -85,3 +86,9 @@ button:hover {
   max-width: 33.333%;
   background-color: var(--dark);
 }
+
+@media only screen and (max-width: 400px) {
+  .app {
+    width: auto;
+  }
+  }

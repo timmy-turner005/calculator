@@ -1,4 +1,4 @@
-import './App.css';
+//import './App.css';
 import Calculator from './components/Calculator';
 import { useState } from 'react';
 
@@ -58,7 +58,7 @@ function App() {
                       <button onClick={()=> updateCalc("-")}>-</button>
                       <button onClick={()=> updateCalc("+")}>+</button>
   
-                      <button onClick={deleteLast}>CLEAR</button>
+                      <button onClick={deleteLast}>CLR</button>
                   </div>
   
                   <div className="digits">
